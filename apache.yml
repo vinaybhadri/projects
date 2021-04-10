@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 172.31.29.58
   become: root
   tasks:
     - name: install apache2
