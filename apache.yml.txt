@@ -1,6 +1,0 @@
----
-- hosts: localhost
-  become: root
-  tasks:
-    - name: install apache2
-      yum: name=httpd update_cache=yes state=latest
